@@ -20,7 +20,7 @@ Con experiencia y mimo.
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fab fa-github" title="Traducción creativa" %}}
+{{% blocks/feature icon="fab fa-github" title="Traducción creativa" url="https://github.com/google/docsy-example" %}}
 Ni un juego de palabras sin adaptar.
 {{% /blocks/feature %}}
 
