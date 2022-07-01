@@ -1,0 +1,34 @@
++++
+title = "Gabriel San Martín"
+linkTitle = "Goldydocs"
+
++++
+
+{{< blocks/cover title="Gabriel San Martín" image_anchor="top" height="full" color="orange" >}}
+<div class="mx-auto">
+	<p class="lead mt-5">Especialista en localización de videojuegos JP/EN > ES</p>
+	{{< blocks/link-down color="info" >}}
+</div>
+{{< /blocks/cover >}}
+
+
+
+
+{{< blocks/section color="dark" >}}
+{{% blocks/feature icon="fa-lightbulb" title="Localización de videojuegos" %}}
+Con experiencia y mimo.
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-github" title="Traducción creativa" url="https://github.com/google/docsy-example" %}}
+Ni un juego de palabras sin adaptar.
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-twitter" title="Docencia innovadora" %}}
+Porque aprender debería ser divertido.
+{{% /blocks/feature %}}
+
+
+{{< /blocks/section >}}
+
