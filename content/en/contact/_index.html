@@ -1,5 +1,5 @@
 ---
-title: About Goldydocs
+title: Contact
 linkTitle: Contact
 menu:
   main:
@@ -8,7 +8,7 @@ menu:
 ---
 
 
-{{< blocks/cover title="About Goldydocs" image_anchor="bottom" height="min" >}}
+{{< blocks/cover title="Contact" image_anchor="bottom" height="min" >}}
 
 <p class="lead mt-5">A sample site using the Docsy Hugo theme.
 </p>
@@ -21,9 +21,22 @@ Goldydocs is a sample site using the <a href="https://github.com/google/docsy">D
 
 
 {{< blocks/section >}}
-<div class="col-12">
-<h1 class="text-center">This is another section</h1>
-</div>
+
+<form action="https://fabform.io/f/h1OC8Ce" method="post">
+  <label for="fname">First Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name...">
+<br>
+  <label for="lname">Last Name</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+<br>
+  <label for="lname">Email</label>
+  <input type="email" id="email" name="email" placeholder="youremail@...">
+<br>
+  <label for="subject">Subject</label>
+  <textarea id="subject" name="subject" placeholder="Write something nice..." style="height:200px"></textarea>
+<br>
+  <button type="submit">Submit</button> 
+ </form>
 
 {{< /blocks/section >}}
 

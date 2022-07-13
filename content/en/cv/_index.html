@@ -1,38 +1,109 @@
 ---
-title: About Goldydocs
+title: CV
 linkTitle: CV
 menu:
   main:
     weight: 20
 
 ---
+<style>
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+  </style>
 
+{{< blocks/cover title="CV" image_anchor="bottom" height="min" >}}
 
-{{< blocks/cover title="About Goldydocs" image_anchor="bottom" height="min" >}}
-
-<p class="lead mt-5">A sample site using the Docsy Hugo theme.
+<p class="lead mt-5">Look here for my experience and education.
 </p>
 
 {{< /blocks/cover >}}
 
-{{% blocks/lead %}}
-Goldydocs is a sample site using the <a href="https://github.com/google/docsy">Docsy</a> Hugo theme that shows what it can do and provides you with a template site structure. It’s designed for you to clone and edit as much as you like. See the different sections of the documentation and site for more ideas.
-{{% /blocks/lead %}}
-
 
 {{< blocks/section >}}
 <div class="col-12">
-<h1 class="text-center">This is another section</h1>
+<h1 class="text-left">Full version</h1>
+<br>
+</div>
+
+<div class="col-12">
+<p class="text-left">Click <a href="">here</a> to download my full CV in PDF.</p>
 </div>
 
 {{< /blocks/section >}}
 
-
-
-{{< blocks/section >}}
-
+{{% blocks/lead %}}
 <div class="col-12">
-<h1 class="text-center">This is another section</h1>
-</div>
+  <h1 class="text-center">Video game credits I'm in</h1>
+  </div>
+{{% /blocks/lead %}}
+
+{{< blocks/section color="white" >}}
+
+<img src="/logos4transp.png">
+
+{{< /blocks/section>}}
+
+{{% blocks/lead color="blue" %}}
+<div class="col-12">
+  <h1 class="text-center">University education</h1>
+  </div>
+{{% /blocks/lead %}}
+
+{{< blocks/section color="white" >}}
+
+{{% blocks/featuretwo icon="fa-school" title="Degree in Translation and Interpretation" %}}
+Autonomous University of Barcelona
+{{% /blocks/featuretwo %}}
+
+
+{{% blocks/featuretwo icon="fa-solid fa-user-graduate" title="Masters in Audiovisual Translation" %}}
+Autonomous University of Barcelona
+{{% /blocks/featuretwo %}}
+
+
+{{< /blocks/section >}}
+
+{{% blocks/lead color="yellow" %}}
+<div class="col-12">
+  <h1 class="text-center">Exchange programs</h1>
+  </div>
+{{% /blocks/lead %}}
+
+{{< blocks/section color="white" >}}
+
+{{% blocks/featuretwo icon="fa-plane-departure" title="Erasmus program" %}}
+University of Limerick, Ireland
+{{% /blocks/featuretwo %}}
+
+
+{{% blocks/featuretwo icon="fa-plane-arrival" title="Programa propi" %}}
+Josai International University, Japan
+{{% /blocks/featuretwo %}}
+
+{{< /blocks/section >}}
+
+{{% blocks/lead %}}
+<div class="col-12">
+  <h1 class="text-center">Teaching experience</h1>
+  </div>
+{{% /blocks/lead %}}
+
+{{< blocks/section color="white" >}}
+{{% blocks/feature icon="fa-lightbulb" title="Private tutor" %}}
+English and Japanese
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-github" title="Espai Daruma" %}}
+Video game translation
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-twitter" title="TranslaStars" %}}
+Video game localization course creator and tutor
+{{% /blocks/feature %}}
+
 
 {{< /blocks/section >}}
