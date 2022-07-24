@@ -13502,22 +13502,19 @@ readers do not read off random characters that represent icons */
   background-color: inherit;
   font-size: 0; }
 
-.td-navbar-cover {
-  background: #69589c; }
-  @media (min-width: 768px) {
-    .td-navbar-cover {
-      background: transparent !important; }
-      .td-navbar-cover .nav-link {
-        text-shadow: none; } }
-  .td-navbar-cover.navbar-bg-onscroll .nav-link {
-    text-shadow: none; }
+@media (min-width: 768px) {
+  .td-navbar-cover {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)); }
+    .td-navbar-cover .nav-link {
+      text-shadow: none; } }
+
+.td-navbar-cover.navbar-bg-onscroll .nav-link {
+  text-shadow: none; }
 
 .navbar-bg-onscroll {
-  background: #69589c !important;
   opacity: inherit; }
 
 .td-navbar {
-  background: #69589c;
   min-height: 4rem;
   margin: 0;
   z-index: 32; }
