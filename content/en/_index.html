@@ -3,17 +3,32 @@ title = "Gabriel San Martín"
 linkTitle = "Gabriel San Martín"
 
 +++
+<style>
+img {
+height: auto;
+max-width: 100%;
+}
+.container {
+position: relative;
+text-align: left;
+color: white;
+}
+
+/* Bottom left text */
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-0%, -50%);
+}
+
+</style>
 
 {{< blocks/coverleftalign image_anchor="top" height="full" color="orange" >}}
 <div class="mx-auto" style="text-align:center">
-	<h1 class="display-1 mt-0 mt-md-5 pb-0" style="text-align:left;max-width:50%">A real professional to make sense of a virtual world</h1>
-	<p class="lead mt-4 mb-5" style="text-align:left">Video game localization specialist JP/EN > ES</p>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
+	<h1 class="display-1 mt-0 mt-md-5 pb-0" style="text-align:left;max-width:50%">A <span style="color: #69589c">real</span> professional <br>to make sense <br>of a <span style="color: #69589c">virtual</span> world</h1>
+	<p class="lead mt-4 mb-3" style="text-align:left">Video game localization specialist JP/EN > ES</p>
+	<p class="lead mt-0 mb-5" style="text-align:left"><a href="/contact/" style="font-weight:500;padding:5px;line-height:50px;background-color:#69589c;color:white">Contact me</a></p>
 	{{< blocks/link-down color="info" >}}
 </div>
 {{< /blocks/coverleftalign >}}
@@ -27,7 +42,7 @@ With experience plus fanboying care
 {{% /blocks/feature %}}
 
 
-{{% blocks/feature icon="fa-solid fa-hat-wizard" title="Creative **translation**" url="https://github.com/google/docsy-example" %}}
+{{% blocks/feature icon="fa-solid fa-hat-wizard" title="Creative **translation**" url="https://github.com/google/docsy-example" url_text="test"%}}
 No pun left untouched
 {{% /blocks/feature %}}
 
@@ -41,9 +56,19 @@ Have fun learning by all means
 
 
 {{% blocks/lead color="primary" %}}
-I strive to provide translations of the highest quality, with experience gained from working with some of the video game industry's biggest players. Whether your project is a AAA game or a short document, it will be treated with the same care.
 
-Please see **Services** for a detailed list of what I can offer, and **CV** for more information about my experience.
+<div class="container">
+	<img src="/logos4transp.png" alt="Snow" style="width:100%;">
+	<div class="centered"><p>I strive to provide translations of the highest quality, with experience gained from working with some of the video game industry's biggest players. Whether your project is a AAA game or a short document, it will be treated with the same care.</p>
+	<p>Please see <span style="font-weight:bold">Services</span> for a detailed list of what I can offer, and <span style="font-weight:bold">CV</span> for more information about my experience.</p>
+	</div>
+  </div>
+
+
+<!-- <img src="/logos4transp.png"> -->
+<!-- <p style="text-align:left">I strive to provide translations of the highest quality, with experience gained from working with some of the video game industry's biggest players. Whether your project is a AAA game or a short document, it will be treated with the same care.
+</p>
+<p style="text-align:left">Please see **Services** for a detailed list of what I can offer, and **CV** for more information about my experience.</p> -->
 {{% /blocks/lead %}}
 
 
