@@ -6,18 +6,40 @@ menu:
     weight: 10
 
 ---
+<style>
+  img {
+  height: auto;
+  max-width: 100%;
+  /* min-width: 100%;
+  margin-top: -10%;
+  margin-left: -10%; */
+  }
+  .containerr {
+  position: relative;
+  text-align: left;
+  color: black;
+  }
+  
+  /* Bottom left text */
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-0%, -50%);
+  }
+  
+  </style>
 
-
-{{< blocks/cover title="The Big Questions" image_anchor="bottom" height="min" >}}
+{{< blocks/cover title="The Big Questions" image_anchor="smart" height="min" >}}
 
 <p class="lead mt-0">Get to know me metaphysically
 </p>
 
 {{< /blocks/cover >}}
 
-{{% blocks/lead %}}
+{{% blocks/lead height="oneline"%}}
 <div class="col-12">
-  <h1 class="text-left">Who am I?</h1>
+  <h1 class="text-left" style="transform:translate(-0%, -50%);">Who am I?</h1>
   </div>
 {{% /blocks/lead %}}
 
@@ -32,29 +54,36 @@ menu:
 
 {{< /blocks/section >}}
 
-{{% blocks/lead color="green" %}}
+{{% blocks/lead color="green" height="oneline"%}}
 <div class="col-12">
-  <h1 class="text-right">Where do I come from and where am I going?</h1>
+  <h1 class="text-right" style="transform:translate(-0%, -50%);">Where do I come from and where am I going?</h1>
   </div>
 {{% /blocks/lead %}}
 
-{{< blocks/section >}}
+{{< blocks/overlayed-image-2 color="white" height="med" image="/asturias.png" >}}
+<div class="containerr td-overlay__inner">
+	<div class="centered"><p>I was born in Asturias, in Northwestern Spain, and I set out to explore the world as soon as I could. I studied in Catalonia, Ireland and Japan. I took several languages as mementos from each of them, and a masters degree in Audiovisual Translation to boot. I have lived in the United Kingdom, and I currently reside in Canada (EDT). I do not know what my future destination is.</p>
+	</div>
+  </div>
+{{< /blocks/overlayed-image-2 >}}
 
-<div class="container">
+<!-- {{< blocks/overlayed-image color="white">}} -->
+
+<!-- <div class="container">
 	<div class="centered"><p>I was born in Asturias, in Northwestern Spain, and I set out to explore the world as soon as I could. I studied in Catalonia, Ireland and Japan. I took several languages as mementos from each of them, and a masters degree in Audiovisual Translation to boot. I have lived in the United Kingdom, and I currently reside in Canada (EDT). I do not know what my future destination is.</p>
 	</div>
   <img src="/asturias.png" alt="Snow" style="width:100%;">
-</div>
+</div> -->
 
 <!-- <div class="col-12">
 <p class="text-align:right">I was born in Asturias, in Northwestern Spain, and I set out to explore the world as soon as I could. I studied in Catalonia, Ireland and Japan. I took several languages as mementos from each of them, and a masters degree in Audiovisual Translation to boot. I have lived in the United Kingdom, and I currently reside in Canada (EDT). I do not know what my future destination is.</p>
 </div> -->
 
-{{< /blocks/section >}}
+<!-- {{< /blocks/overlayed-image >}} -->
 
-{{% blocks/lead color="yellow" %}}
+{{% blocks/lead color="yellow" height="oneline"%}}
 <div class="col-12">
-  <h1 class="text-left">Why am I here?</h1>
+  <h1 class="text-left" style="transform:translate(-0%, -50%);">Why am I here?</h1>
   </div>
 {{% /blocks/lead %}}
 

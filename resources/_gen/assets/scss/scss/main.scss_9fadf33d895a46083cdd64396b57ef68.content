@@ -12460,6 +12460,18 @@ readers do not read off random characters that represent icons */
 .-text-13 {
   color: #C0E0DE; }
 
+.td-box--height-twoline {
+  min-height: 0px;
+  max-height: 0px; }
+
+.td-box--height-nothing {
+  min-height: 1000px;
+  max-height: 1000px; }
+
+.td-box--height-oneline {
+  min-height: 60px;
+  max-height: 60px; }
+
 .td-box--height-min {
   min-height: 300px; }
 
@@ -12473,10 +12485,19 @@ readers do not read off random characters that represent icons */
   min-height: 100vh; }
 
 @media (min-width: 768px) {
+  .td-box--height-nothing {
+    min-height: 0px;
+    max-height: 0px; }
+  .td-box--height-oneline {
+    min-height: 60px;
+    max-height: 60px; }
+  .td-box--height-twoline {
+    min-height: 170px;
+    max-height: 170px; }
   .td-box--height-min {
-    min-height: 450px; }
+    min-height: 300px; }
   .td-box--height-med {
-    min-height: 500px; }
+    min-height: 400px; }
   .td-box--height-max {
     min-height: 650px; } }
 
@@ -12499,7 +12520,7 @@ readers do not read off random characters that represent icons */
   .td-box--0 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #271152 transparent transparent transparent;
@@ -12521,7 +12542,7 @@ readers do not read off random characters that represent icons */
   .td-box--1 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #584F92 transparent transparent transparent;
@@ -12543,7 +12564,7 @@ readers do not read off random characters that represent icons */
   .td-box--2 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #A63FB5 transparent transparent transparent;
@@ -12565,7 +12586,7 @@ readers do not read off random characters that represent icons */
   .td-box--3 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #C0E0DE transparent transparent transparent;
@@ -12587,7 +12608,7 @@ readers do not read off random characters that represent icons */
   .td-box--4 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: white transparent transparent transparent;
@@ -12609,7 +12630,7 @@ readers do not read off random characters that represent icons */
   .td-box--5 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #797676 transparent transparent transparent;
@@ -12631,7 +12652,7 @@ readers do not read off random characters that represent icons */
   .td-box--6 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #3772FF transparent transparent transparent;
@@ -12653,7 +12674,7 @@ readers do not read off random characters that represent icons */
   .td-box--7 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #a66f60 transparent transparent transparent;
@@ -12675,7 +12696,7 @@ readers do not read off random characters that represent icons */
   .td-box--8 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #271152 transparent transparent transparent;
@@ -12697,7 +12718,7 @@ readers do not read off random characters that represent icons */
   .td-box--9 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #a66f60 transparent transparent transparent;
@@ -12719,7 +12740,7 @@ readers do not read off random characters that represent icons */
   .td-box--10 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #584F92 transparent transparent transparent;
@@ -12741,7 +12762,7 @@ readers do not read off random characters that represent icons */
   .td-box--11 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #A63FB5 transparent transparent transparent;
@@ -12763,7 +12784,7 @@ readers do not read off random characters that represent icons */
   .td-box--12 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: white transparent transparent transparent;
@@ -12785,7 +12806,7 @@ readers do not read off random characters that represent icons */
   .td-box--13 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #C0E0DE transparent transparent transparent;
@@ -12807,7 +12828,7 @@ readers do not read off random characters that represent icons */
   .td-box--blue .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #11AEBF transparent transparent transparent;
@@ -12829,7 +12850,7 @@ readers do not read off random characters that represent icons */
   .td-box--indigo .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #6610f2 transparent transparent transparent;
@@ -12851,7 +12872,7 @@ readers do not read off random characters that represent icons */
   .td-box--purple .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #6f42c1 transparent transparent transparent;
@@ -12873,7 +12894,7 @@ readers do not read off random characters that represent icons */
   .td-box--pink .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #e83e8c transparent transparent transparent;
@@ -12895,7 +12916,7 @@ readers do not read off random characters that represent icons */
   .td-box--red .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #dc3545 transparent transparent transparent;
@@ -12917,7 +12938,7 @@ readers do not read off random characters that represent icons */
   .td-box--orange .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #BA5A31 transparent transparent transparent;
@@ -12939,7 +12960,7 @@ readers do not read off random characters that represent icons */
   .td-box--yellow .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #D9B768 transparent transparent transparent;
@@ -12961,7 +12982,7 @@ readers do not read off random characters that represent icons */
   .td-box--green .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #97a660 transparent transparent transparent;
@@ -12983,7 +13004,7 @@ readers do not read off random characters that represent icons */
   .td-box--teal .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #20c997 transparent transparent transparent;
@@ -13005,7 +13026,7 @@ readers do not read off random characters that represent icons */
   .td-box--cyan .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #17a2b8 transparent transparent transparent;
@@ -13027,7 +13048,7 @@ readers do not read off random characters that represent icons */
   .td-box--white .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #F3F3F3 transparent transparent transparent;
@@ -13049,7 +13070,7 @@ readers do not read off random characters that represent icons */
   .td-box--gray .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #797676 transparent transparent transparent;
@@ -13071,7 +13092,7 @@ readers do not read off random characters that represent icons */
   .td-box--gray-dark .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #333 transparent transparent transparent;
@@ -13093,7 +13114,7 @@ readers do not read off random characters that represent icons */
   .td-box--primary .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #584F92 transparent transparent transparent;
@@ -13115,7 +13136,7 @@ readers do not read off random characters that represent icons */
   .td-box--secondary .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #A63FB5 transparent transparent transparent;
@@ -13137,7 +13158,7 @@ readers do not read off random characters that represent icons */
   .td-box--success .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #3772FF transparent transparent transparent;
@@ -13159,7 +13180,7 @@ readers do not read off random characters that represent icons */
   .td-box--info .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #C0E0DE transparent transparent transparent;
@@ -13181,7 +13202,7 @@ readers do not read off random characters that represent icons */
   .td-box--warning .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #a66f60 transparent transparent transparent;
@@ -13203,7 +13224,7 @@ readers do not read off random characters that represent icons */
   .td-box--danger .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #a66f60 transparent transparent transparent;
@@ -13225,7 +13246,7 @@ readers do not read off random characters that represent icons */
   .td-box--light .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #D3F3EE transparent transparent transparent;
@@ -13247,7 +13268,7 @@ readers do not read off random characters that represent icons */
   .td-box--dark .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #271152 transparent transparent transparent;
@@ -13269,7 +13290,7 @@ readers do not read off random characters that represent icons */
   .td-box--100 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #f8f9fa transparent transparent transparent;
@@ -13291,7 +13312,7 @@ readers do not read off random characters that represent icons */
   .td-box--200 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #eee transparent transparent transparent;
@@ -13313,7 +13334,7 @@ readers do not read off random characters that represent icons */
   .td-box--300 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #dee2e6 transparent transparent transparent;
@@ -13335,7 +13356,7 @@ readers do not read off random characters that represent icons */
   .td-box--400 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #ccc transparent transparent transparent;
@@ -13357,7 +13378,7 @@ readers do not read off random characters that represent icons */
   .td-box--500 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #adb5bd transparent transparent transparent;
@@ -13379,7 +13400,7 @@ readers do not read off random characters that represent icons */
   .td-box--600 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #797676 transparent transparent transparent;
@@ -13401,7 +13422,7 @@ readers do not read off random characters that represent icons */
   .td-box--700 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #495057 transparent transparent transparent;
@@ -13423,7 +13444,7 @@ readers do not read off random characters that represent icons */
   .td-box--800 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #333 transparent transparent transparent;
@@ -13445,7 +13466,7 @@ readers do not read off random characters that represent icons */
   .td-box--900 .td-arrow-down::before {
     left: 50%;
     margin-left: -30px;
-    bottom: -25px;
+    bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
     border-color: #222 transparent transparent transparent;
@@ -13548,7 +13569,7 @@ readers do not read off random characters that represent icons */
     .td-navbar .td-search-input:-ms-input-placeholder {
       color: rgba(243, 243, 243, 0.75); }
   .td-navbar .dropdown {
-    min-width: 100px; }
+    min-width: 10px; }
   @media (max-width: 991.98px) {
     .td-navbar {
       padding-right: .5rem;
@@ -13936,6 +13957,18 @@ nav.foldable-nav .with-child ul {
     @media (min-width: 768px) {
       .td-main main {
         padding-top: 5.5rem; } }
+.td-cover-block--height-twoline {
+  min-height: 0px;
+  max-height: 0px; }
+
+.td-cover-block--height-nothing {
+  min-height: 1000px;
+  max-height: 1000px; }
+
+.td-cover-block--height-oneline {
+  min-height: 60px;
+  max-height: 60px; }
+
 .td-cover-block--height-min {
   min-height: 300px; }
 
@@ -13949,10 +13982,19 @@ nav.foldable-nav .with-child ul {
   min-height: 100vh; }
 
 @media (min-width: 768px) {
+  .td-cover-block--height-nothing {
+    min-height: 0px;
+    max-height: 0px; }
+  .td-cover-block--height-oneline {
+    min-height: 60px;
+    max-height: 60px; }
+  .td-cover-block--height-twoline {
+    min-height: 170px;
+    max-height: 170px; }
   .td-cover-block--height-min {
-    min-height: 450px; }
+    min-height: 300px; }
   .td-cover-block--height-med {
-    min-height: 500px; }
+    min-height: 400px; }
   .td-cover-block--height-max {
     min-height: 650px; } }
 
@@ -13964,12 +14006,20 @@ nav.foldable-nav .with-child ul {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-repeat: no-repeat;
-  background-position: 50% 0;
+  background-position: 50% -0%;
   background-size: cover; }
   .td-cover-block > .byline {
     position: absolute;
     bottom: 2px;
     right: 4px; }
+
+.td-cover-block-small {
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+  background-size: cover; }
 
 .td-bg-arrow-wrapper {
   position: relative; }
