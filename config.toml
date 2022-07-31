@@ -67,6 +67,12 @@ id = "UA-00000000-0"
 
 # Language configuration
 
+[[menu.main]]
+    name = "Blog"
+    weight = 50
+    url = "https://example.docsy.dev"
+    post = '<sup><i class="pl-1 fas fa-external-link-alt fa-xs" aria-hidden="true"></i></sup>'
+
 [languages]
 [languages.en]
 title = "Gabriel San Martín"

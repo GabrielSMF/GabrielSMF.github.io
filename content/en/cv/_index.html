@@ -7,23 +7,32 @@ menu:
 
 ---
 <style>
+  body { background:#271152; }
   img {
     height: auto;
     max-width: 100%;
   }
+  .centered {
+position: absolute;
+top: 50%;
+left: 65%;
+transform: translate(-0%, -50%);
+}
+/* .container {
+position: relative;
+text-align: left;
+color: white;
+} */
   </style>
 
 {{< blocks/cover title="CV" image_anchor="smart" height="min" >}}
-
-<p class="lead mt-0">Look here for my experience and education
-</p>
-
+Look here for my experience and education
 {{< /blocks/cover >}}
 
 
-{{< blocks/section >}}
+<!-- {{< blocks/section >}}
 <div class="col-12">
-<h1 class="text-left">Full version</h1>
+<h1 class="text-left" style="font-weight:700;">Full version</h1>
 <br>
 </div>
 
@@ -31,11 +40,22 @@ menu:
 <p class="text-left">Click <a href="">here</a> to download my full CV in PDF.</p>
 </div>
 
-{{< /blocks/section >}}
+{{< /blocks/section >}} -->
 
-{{% blocks/lead height="oneline"%}}
+{{< blocks/overlayed-image height="min" image="/fullversion.png" >}}
+<div class="container td-overlay__inner">
+	<div class="centered" style="font-weight:400;font-size:18px"><div class="col-12">
+      <h1 class="text-left" style="font-weight:700;">Full version</h1>
+      <br>
+    <p class="text-left">Click <span style="font-weight:bold"><a href="">here</a></span> to download my full CV in PDF.</p>
+    </div>
+	</div>
+  </div>
+{{< /blocks/overlayed-image >}}
+
+{{% blocks/lead height="oneline" color="blue"%}}
 <div class="col-12">
-  <h1 class="text-center" style="transform:translate(-0%, -50%);">Video game credits I'm in</h1>
+  <h1 class="text-center" style="transform:translate(-0%, -50%);font-weight:700;">Video game credits I'm in</h1>
   </div>
 {{% /blocks/lead %}}
 
@@ -45,9 +65,9 @@ menu:
 
 {{< /blocks/section>}}
 
-{{% blocks/lead color="blue" height="oneline" %}}
+{{% blocks/lead color="yellow" height="oneline" %}}
 <div class="col-12">
-  <h1 class="text-center" style="transform:translate(-0%, -50%);">University education</h1>
+  <h1 class="text-center" style="transform:translate(-0%, -50%);font-weight:700;">University education</h1>
   </div>
 {{% /blocks/lead %}}
 
@@ -65,9 +85,9 @@ Autonomous University of Barcelona
 
 {{< /blocks/section >}}
 
-{{% blocks/lead color="yellow" height="oneline" %}}
+{{% blocks/lead color="orange" height="oneline" %}}
 <div class="col-12">
-  <h1 class="text-center" style="transform:translate(-0%, -50%);">Exchange programs</h1>
+  <h1 class="text-center" style="transform:translate(-0%, -50%);font-weight:700;">Exchange programs</h1>
   </div>
 {{% /blocks/lead %}}
 
@@ -84,9 +104,9 @@ Josai International University, Japan
 
 {{< /blocks/section >}}
 
-{{% blocks/lead  height="oneline"%}}
+{{% blocks/lead  height="oneline" color="secondary"%}}
 <div class="col-12">
-  <h1 class="text-center" style="transform:translate(-0%, -50%);">Teaching experience</h1>
+  <h1 class="text-center" style="transform:translate(-0%, -50%);font-weight:700;">Teaching experience</h1>
   </div>
 {{% /blocks/lead %}}
 
