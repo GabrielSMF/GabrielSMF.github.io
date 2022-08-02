@@ -6,62 +6,89 @@ menu:
     weight: 10
 
 ---
+<style>
+  body { background:#271152; }
+  img {
+  height: auto;
+  max-width: 100%;
+  /* min-width: 100%;
+  margin-top: -10%;
+  margin-left: -10%; */
+  }
+  .containerr {
+  position: relative;
+  text-align: left;
+  color: black;
+  }
+  
+  /* Bottom left text */
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-0%, -50%);
+  }
+  
+  </style>
 
-
-{{< blocks/cover title="Las grandes preguntas" image_anchor="bottom" height="min" >}}
-
-<p class="lead mt-5">A sample site using the Docsy Hugo theme.
-</p>
-
+{{< blocks/cover title="Las grandes preguntas" image_anchor="smart" height="min" >}}
+Para conocerme metafísicamente
 {{< /blocks/cover >}}
 
-
-{{< blocks/section >}}
+{{% blocks/lead height="oneline"%}}
 <div class="col-12">
-<h1 class="text-center">¿Quién soy?</h1>
-</div>
-
-{{< /blocks/section >}}
-
-
-{{% blocks/lead %}}
-<p style="text-align:left">Me llamo Gabriel San Martín y soy traductor freelance de japonés e inglés al castellano. Me especializo en videojuegos y he participado en proyectos como Ni no Kuni II y diversas entregas de la franquicia Pokémon. He disfrutado los videojuegos desde muy tierna edad, cuando mi padre se regaló, digo, me regaló una Nintendo 64 para Navidad. En los últimos años he recabado experiencia en distintas fases de localización de juegos para consolas, PC y dispositivos móviles, y he hecho pinitos en la enseñanza [enlace a Daruma] de todo ese proceso. Mi experiencia profesional y mis gustos personales han tirado/apuntado siempre hacia los videojuegos de rol, pero como fan y profesional procuro/ ampliar mis horizontes y conocimientos sobre todo tipo de videojuegos constantemente/sin cesar. Es uno de los grandes privilegios de este trabajo/esta profesión/línea de trabajo.</p>
-
-<p style="text-align:left">Además de mis principales lenguas de trabajo, uso/en los proyectos me sirvo de los demás idiomas de la combinación FIGS (cuando tengo acceso a ellos) como referencia para asegurar una traducción de la mayor calidad. Estudié seis años de francés en el instituto, un año de alemán en la carrera sumado a un curso de una semana en el Goethe Institut y aprendo italiano, entre otras lenguas, de manera autodidacta (y poniendo la oreja en las conversaciones de mis colegas de oficina, cuando había tal cosa).</p>
-
-<p style="text-align:left">También he sido un ávido lector toda la vida y, como/al igual que buena parte del alumnado de traducción, soñaba con traducir literatura. Si trabajas en traducción editorial y te gustaría darme la oportunidad de cumplir un sueño, mi sección de Contacto está abierta de par en par. Por supuesto, también lo está para cualquier proyecto chulo/jugoso/ de traducción o localización que requiera mi perfil. Puedes consultar una versión resumida de mi currículum o descargar la versión completa en PDF en la sección Currículum.</p>
-
-<p style="text-align:left">Si te preguntas por qué hablo sobre género y temas LGTBI+, es porque pertenezco a varias de esas letras, fui miembro fundador de una asociación por los derechos LGTBI+ y el género ha sido un dilema/ constante en mi vida sobre el que no dejo de buscar respuestas. Incluso le dediqué mi trabajo de fin de máster. En mi trabajo aplico siempre un enfoque crítico y en defensa de la igualdad. A lo largo de los últimos años me he formado también en accesibilidad y la capacidad del equipo de localización para apoyar las buenas prácticas que aseguran/garantizan/ que todo el mundo pueda disfrutar los videojuegos por igual.</p>
-
-<p style="text-align:left">A lo largo de los últimos años también me he formado y formo en accesibilidad y la capacidad del equipo de localización para apoyar las buenas prácticas que aseguran/garantizan/ que todo el mundo pueda disfrutar los videojuegos por igual.
-Por si todavía sientes curiosidad sobre mí, aquí encontrarás el blog en el que hablo/me enrollo/ sobre mis excesivas/incontables aficiones, aquí el blog de recetas que publico con mi pareja y, más abajo, la respuesta a otras grandes preguntas.</p>
+  <h1 class="text-left" style="transform:translate(-0%, -50%);font-weight:700;">¿Quién soy?</h1>
+  </div>
 {{% /blocks/lead %}}
 
 
-{{< blocks/section >}}
-
+{{< blocks/section color="white" >}}
 <div class="col-12">
-<h1 class="text-center">¿De dónde vengo y adónde voy?</h1>
+<p class="text-left">My name is Gabriel San Martín and I am a freelance translator who works from Japanese or English into European Spanish and specializes in video games. I have participated in projects such as Ni no Kuni II and several titles of the Pokémon franchise. I have enjoyed video games from an early age, when my father bought, I mean, gifted a Nintendo 64 to me for Christmas. In recent years, I have acquired experience in the different stages of the localization of games for consoles, PC and mobile devices, and have also dipped a toe in teaching that whole process. My work experience and my personal preferences have always been inclined towards role playing games, but both as a fan and a professional I make sure to broaden my horizons and learn about all sorts of genres regularly. That is one of the biggest privileges of this line of work.</p>
+<p class="text-left">Besides my main languages, I use the rest of FIGS languages (when their texts are available) as a reference during projects to ensure a top quality translation. I studied French for six years in high school, one year of German as part of my undergrad studies plus a one-week-long course at Goethe-Institut, and I am learning Italian among other languages by myself (and by eavesdropping some of my neighbouring colleagues conversations when there was such a thing as an office/back when I worked in an office).</p>
+<p class="text-left">I have been an avid reader all my life and, like most translation students, I longed to translate literature. If you work in editorial translation and would like to give me a chance to fulfill that dream, my Contact section is wide open. And so are my interests. I foster a curiosity towards an array of topics and media, so any translation or localization project that I am suitable for is very welcome. You can take a look at a brief summary of my experience or download the full PDF version of my résumé in the CV section above.</p>
+<p class="text-left">If you are wondering why I talk about gender and LGBTQ+ issues, the reason is that I belong to a couple of those letters, I was a founding member of an association for LGBTQI+ rights, and gender has been a life-long personal dilemma, which I am constantly trying to solve. I even dedicated my masters dissertation to it. In my work, I always apply a questioning approach and stand up for equality. Lately, I have taught myself and others about accessibility and the ability of the localization team to support good practices in video games so that everyone can enjoy video games equally.</p>
 </div>
 
 {{< /blocks/section >}}
 
-
-{{% blocks/lead %}}
-<p style="text-align:left">Nací en Asturias, Paraíso Natural, y me fui a dar tumbos por el mundo en cuanto pude. Estudié en Cataluña, Irlanda y Japón. Me llevé varios idiomas de recuerdo de cada uno de ellos y, para rematar/, un máster en Traducción Audiovisual. He vivido en Reino Unido y actualmente resido en Canadá (UTC ¿?). No sé qué destino me deparará el futuro.</p> 
+{{% blocks/lead color="green" height="oneline"%}}
+<div class="col-12">
+  <h1 class="text-right" style="transform:translate(-0%, -50%);font-weight:700;">¿De dónde vengo y adónde voy?</h1>
+  </div>
 {{% /blocks/lead %}}
 
-{{< blocks/section >}}
+{{< blocks/overlayed-image-2 color="white" height="med" image="/asturias.png" >}}
+<div class="containerr td-overlay__inner">
+	<div class="centered"><p>Nací en Asturias, Paraíso Natural, y me fui a deambular por el mundo en cuanto pude. Estudié en Cataluña, Irlanda y Japón. Me llevé varios idiomas de recuerdo de cada uno de ellos y, como colofón, un máster en Traducción Audiovisual. He vivido en Reino Unido y actualmente resido en Canadá (UTC -4), donde hace poco he visto un mapache por primera vez. No sé qué destino me depara el futuro.</p>
+	</div>
+  </div>
+{{< /blocks/overlayed-image-2 >}}
 
+<!-- {{< blocks/overlayed-image color="white">}} -->
+
+<!-- <div class="container">
+	<div class="centered"><p>I was born in Asturias, in Northwestern Spain, and I set out to explore the world as soon as I could. I studied in Catalonia, Ireland and Japan. I took several languages as mementos from each of them, and a masters degree in Audiovisual Translation to boot. I have lived in the United Kingdom, and I currently reside in Canada (EDT). I do not know what my future destination is.</p>
+	</div>
+  <img src="/asturias.png" alt="Snow" style="width:100%;">
+</div> -->
+
+<!-- <div class="col-12">
+<p class="text-align:right">I was born in Asturias, in Northwestern Spain, and I set out to explore the world as soon as I could. I studied in Catalonia, Ireland and Japan. I took several languages as mementos from each of them, and a masters degree in Audiovisual Translation to boot. I have lived in the United Kingdom, and I currently reside in Canada (EDT). I do not know what my future destination is.</p>
+</div> -->
+
+<!-- {{< /blocks/overlayed-image >}} -->
+
+{{% blocks/lead color="yellow" height="oneline"%}}
 <div class="col-12">
-<h1 class="text-center">¿Por qué estoy aquí?</h1>
+  <h1 class="text-left" style="transform:translate(-0%, -50%);font-weight:700;">¿Por qué estoy aquí?</h1>
+  </div>
+{{% /blocks/lead %}}
+
+{{< blocks/section color="white" >}}
+<div class="col-12">
+<p class="text-left">Qué preguntas hago que me hagas, mi inquisitiva visita. La humanidad ha postulado múltiples posibles respuestas a esta incógnita tal vez incontestable. En lugar de aburrirte con mi árbol genealógico o teorías existencialistas, me limitaré a explicar por qué ocupo este diminuto espacio de internet.</p>
+<p class="text-left">Como habrás deducido gracias a la perspicacia que te caracteriza, he venido a la red de redes a impresionarte con mi colorida prosa y su respectiva localización para que me lleves ante tu líder o, si lideras por cuenta propia, solicites mis servicios a cambio de algún tipo de compensación. En la sección de Blog puedes asomarte a mi otra esquinita de internet, donde escribo y pretendo divulgar sobre traducción y localización de videojuegos.</p>
 </div>
 
-{{< /blocks/section >}}
-
-
-{{< blocks/section >}}
-Qué preguntas hago que me hagas, mi inquisitiva visita. La humanidad ha dado múltiples posibles respuestas a esta incógnita tal vez incontestable. En lugar de aburrirte con mi árbol genealógico o teorías existencialistas, me limitaré a explicar por qué ocupo este diminuto espacio de internet.
-
-Como habrás deducido gracias a la perspicacia que te caracteriza, he venido a la red de redes a impresionarte con mi colorida prosa para que me lleves ante tu líder o, si lideras por cuenta propia, solicites mis servicios a cambio de algún tipo de compensación. En la sección de Blog puedes encontrar mi otra esquinita de internet, donde escribo y pretendo divulgar sobre traducción y localización de videojuegos.
 {{< /blocks/section >}}
