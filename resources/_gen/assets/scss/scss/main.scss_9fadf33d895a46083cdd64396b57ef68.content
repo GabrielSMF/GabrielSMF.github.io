@@ -14102,7 +14102,8 @@ readers do not read off random characters that represent icons */
   text-shadow: none; }
 
 .navbar-bg-onscroll {
-  opacity: inherit; }
+  opacity: inherit;
+  background-color: #271152; }
 
 .td-navbar {
   min-height: 4rem;
