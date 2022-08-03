@@ -78,6 +78,7 @@ id = "UA-00000000-0"
 title = "Gabriel San Martín"
 description = "JP and EN to ES translator"
 languageName ="EN"
+image_acks = "blah blah blah"
 # Weight used for sorting.
 weight = 1
 [languages.es]
@@ -85,6 +86,7 @@ title = "Gabriel San Martín"
 description = "Traductor de JP y En a ES"
 languageName ="ES"
 contentDir = "content/es"
+image_acks = "bla bla bla"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
