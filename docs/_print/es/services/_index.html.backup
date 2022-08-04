@@ -1,0 +1,35 @@
+---
+title: Servicios
+linkTitle: Servicios
+menu:
+  main:
+    weight: 30
+
+---
+
+
+{{< blocks/cover title="Servicios" image_anchor="bottom" height="min" >}}
+
+<p class="lead mt-5">A sample site using the Docsy Hugo theme.
+</p>
+
+{{< /blocks/cover >}}
+
+{{% blocks/lead %}}
+- Localización de videojuegos JP/EN > ES
+- Traducción de textos JP/EN > ES
+- Revisión lingüística
+- Revisión cultural
+- Asesoría en temática LGTB+
+{{% /blocks/lead %}}
+
+
+{{< blocks/section >}}
+<div class="col-12">
+<h1 class="text-center">¿Lo que buscas no aparece en la lista? Mándame un correo electrónico para consultar sin compromiso.</h1>
+</div>
+
+{{< /blocks/section >}}
+
+
+
