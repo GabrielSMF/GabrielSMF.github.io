@@ -13042,7 +13042,8 @@ readers do not read off random characters that represent icons */
   max-height: 60px; }
 
 .td-box--height-min {
-  min-height: 300px; }
+  min-height: 300px;
+  max-height: 1000px; }
 
 .td-box--height-med {
   min-height: 400px; }
@@ -13064,7 +13065,8 @@ readers do not read off random characters that represent icons */
     min-height: 200px;
     max-height: 170px; }
   .td-box--height-min {
-    min-height: 300px; }
+    min-height: 300px;
+    max-height: 1000px; }
   .td-box--height-med {
     min-height: 400px; }
   .td-box--height-max {
@@ -14538,7 +14540,8 @@ nav.foldable-nav .with-child ul {
   max-height: 60px; }
 
 .td-cover-block--height-min {
-  min-height: 300px; }
+  min-height: 300px;
+  max-height: 1000px; }
 
 .td-cover-block--height-med {
   min-height: 400px; }
@@ -14560,7 +14563,8 @@ nav.foldable-nav .with-child ul {
     min-height: 200px;
     max-height: 170px; }
   .td-cover-block--height-min {
-    min-height: 300px; }
+    min-height: 300px;
+    max-height: 1000px; }
   .td-cover-block--height-med {
     min-height: 400px; }
   .td-cover-block--height-max {
