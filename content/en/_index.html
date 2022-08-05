@@ -22,8 +22,15 @@ color: white;
 .centered {
 position: absolute;
 top: 50%;
-left: 55%;
 transform: translate(-0%, -30%);
+}
+@media (min-width: 800px) {
+	.centered {
+	position: absolute;
+	top: 50%;
+	transform: translate(-0%, -30%);
+	left: 55%;
+	}
 }
 .rectangle{
 	margin-top: 30px;
@@ -81,11 +88,14 @@ Engaging lessons by all means
 
 
 {{< blocks/overlayed-image color="primary" height="med" image="/portatil.png" >}}
+<!-- {{< blocks/section color="primary" height="med" image="/portatil.png" >}} -->
 <div class="containerr td-overlay__inner">
-	<div class="centered" style="font-weight:500;font-size:18px"><p>My quest is to provide translations of the highest quality, with the benefit of experience gained from working with some of the video game industry’s biggest players. Your project, whether it is a AAA game or a short document, will be crafted with all my dedication and love for what I do.</p>
+	<div class="centered" style="font-weight:500;font-size:18px">
+		<p>My quest is to provide translations of the highest quality, with the benefit of experience gained from working with some of the video game industry’s biggest players. Your project, whether it is a AAA game or a short document, will be crafted with all my dedication and love for what I do.</p>
 	<p>Please see <span style="font-weight:bold"><a href="/services">Services</a></span> for a detailed list of what I can offer, and <span style="font-weight:bold"><a href="/cv">CV</a></span> for more information about my experience and training.</p>
 	</div>
   </div>
+<!-- {{< /blocks/section >}} -->
 {{< /blocks/overlayed-image >}}
 
 
