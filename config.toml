@@ -76,14 +76,14 @@ id = "UA-00000000-0"
 [languages]
 [languages.en]
 title = "Gabriel San Martín"
-description = "JP and EN to ES translator"
+description = "Japanese and English to European Spanish professional translator and video game localization specialist."
 languageName ="EN"
 image_acks = "Photos by Javier Martínez, Glenn Carstens-Peters and Kamila Maciejewska under Unsplash License and modified by me"
 # Weight used for sorting.
 weight = 1
 [languages.es]
 title = "Gabriel San Martín"
-description = "Traductor de JP y En a ES"
+description = "Traductor profesional de japonés e inglés a español y especialista en localización de videojuegos."
 languageName ="ES"
 contentDir = "content/es"
 image_acks = "Fotos de Javier Martínez, Glenn Carstens-Peters y Kamila Maciejewska con licencia Unsplash y modificaciones mías"
