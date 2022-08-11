@@ -41,7 +41,7 @@ See https://github.com/twbs/bootstrap/pull/23260
   --breakpoint-md: 961px;
   --breakpoint-lg: 962px;
   --breakpoint-xl: 1200px;
-  --breakpoint-xxl: 1900px;
+  --breakpoint-xxl: 2500px;
   --font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
 
@@ -475,15 +475,15 @@ pre {
 
 @media (min-width: 962px) {
   .container-lg, .container-md, .container-sm, .container {
-    max-width: 962px; } }
+    max-width: 1500px; } }
 
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1140px; } }
+    max-width: 1640px; } }
 
-@media (min-width: 1900px) {
+@media (min-width: 2500px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1610px; } }
+    max-width: 1710px; } }
 
 .row {
   display: flex;
@@ -1143,7 +1143,7 @@ pre {
   .offset-xl-11 {
     margin-left: 91.66666667%; } }
 
-@media (min-width: 1900px) {
+@media (min-width: 2500px) {
   .col-xxl {
     flex-basis: 0;
     flex-grow: 1;
@@ -1512,7 +1512,7 @@ pre {
     .table-responsive-xl > .table-bordered {
       border: 0; } }
 
-@media (max-width: 1899.98px) {
+@media (max-width: 2499.98px) {
   .table-responsive-xxl {
     display: block;
     width: 100%;
@@ -2437,7 +2437,7 @@ input[type="button"].btn-block {
     right: 0;
     left: auto; } }
 
-@media (min-width: 1900px) {
+@media (min-width: 2500px) {
   .dropdown-menu-xxl-left {
     right: auto;
     left: 0; }
@@ -3448,7 +3448,7 @@ input[type="button"].btn-block {
     .navbar-expand-xl .navbar-toggler {
       display: none; } }
 
-@media (max-width: 1899.98px) {
+@media (max-width: 2499.98px) {
   .navbar-expand-xxl > .container,
   .navbar-expand-xxl > .container-fluid,
   .navbar-expand-xxl > .container-sm,
@@ -3459,7 +3459,7 @@ input[type="button"].btn-block {
     padding-right: 0;
     padding-left: 0; } }
 
-@media (min-width: 1900px) {
+@media (min-width: 2500px) {
   .navbar-expand-xxl {
     flex-flow: row nowrap;
     justify-content: flex-start; }
@@ -4261,7 +4261,7 @@ input[type="button"].btn-block {
         margin-left: -1px;
         border-left-width: 1px; } }
 
-@media (min-width: 1900px) {
+@media (min-width: 2500px) {
   .list-group-horizontal-xxl {
     flex-direction: row; }
     .list-group-horizontal-xxl > .list-group-item:first-child {
@@ -5305,7 +5305,7 @@ button.bg-dark:focus {
   .d-xl-inline-flex {
     display: inline-flex !important; } }
 
-@media (min-width: 1900px) {
+@media (min-width: 2500px) {
   .d-xxl-none {
     display: none !important; }
   .d-xxl-inline {
@@ -5761,7 +5761,7 @@ button.bg-dark:focus {
   .align-self-xl-stretch {
     align-self: stretch !important; } }
 
-@media (min-width: 1900px) {
+@media (min-width: 2500px) {
   .flex-xxl-row {
     flex-direction: row !important; }
   .flex-xxl-column {
@@ -5872,7 +5872,7 @@ button.bg-dark:focus {
   .float-xl-none {
     float: none !important; } }
 
-@media (min-width: 1900px) {
+@media (min-width: 2500px) {
   .float-xxl-left {
     float: left !important; }
   .float-xxl-right {
@@ -7367,7 +7367,7 @@ button.bg-dark:focus {
   .mx-xl-auto {
     margin-left: auto !important; } }
 
-@media (min-width: 1900px) {
+@media (min-width: 2500px) {
   .m-xxl-0 {
     margin: 0 !important; }
   .mt-xxl-0,
@@ -7690,7 +7690,7 @@ button.bg-dark:focus {
   .text-xl-center {
     text-align: center !important; } }
 
-@media (min-width: 1900px) {
+@media (min-width: 2500px) {
   .text-xxl-left {
     text-align: left !important; }
   .text-xxl-right {
@@ -13031,7 +13031,7 @@ readers do not read off random characters that represent icons */
 
 .td-box--height-twoline {
   min-height: 200px;
-  max-height: 200px; }
+  max-height: 600px; }
 
 .td-box--height-nothing {
   min-height: 1000px;
@@ -13042,10 +13042,12 @@ readers do not read off random characters that represent icons */
   max-height: 60px; }
 
 .td-box--height-min {
-  min-height: 300px; }
+  min-height: 300px;
+  max-height: 1000px; }
 
 .td-box--height-med {
-  min-height: 400px; }
+  min-height: 400px;
+  max-height: 1200px; }
 
 .td-box--height-max {
   min-height: 500px; }
@@ -13062,9 +13064,10 @@ readers do not read off random characters that represent icons */
     max-height: 60px; }
   .td-box--height-twoline {
     min-height: 200px;
-    max-height: 170px; }
+    max-height: 250px; }
   .td-box--height-min {
-    min-height: 300px; }
+    min-height: 300px;
+    max-height: 1000px; }
   .td-box--height-med {
     min-height: 400px; }
   .td-box--height-max {
@@ -13088,7 +13091,8 @@ readers do not read off random characters that represent icons */
   background-color: #271152; }
   .td-box--0 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13110,7 +13114,8 @@ readers do not read off random characters that represent icons */
   background-color: #584F92; }
   .td-box--1 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13132,7 +13137,8 @@ readers do not read off random characters that represent icons */
   background-color: #A63FB5; }
   .td-box--2 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13154,7 +13160,8 @@ readers do not read off random characters that represent icons */
   background-color: #C0E0DE; }
   .td-box--3 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13176,7 +13183,8 @@ readers do not read off random characters that represent icons */
   background-color: white; }
   .td-box--4 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13198,7 +13206,8 @@ readers do not read off random characters that represent icons */
   background-color: #797676; }
   .td-box--5 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13220,7 +13229,8 @@ readers do not read off random characters that represent icons */
   background-color: #3772FF; }
   .td-box--6 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13242,7 +13252,8 @@ readers do not read off random characters that represent icons */
   background-color: #a66f60; }
   .td-box--7 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13264,7 +13275,8 @@ readers do not read off random characters that represent icons */
   background-color: #271152; }
   .td-box--8 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13286,7 +13298,8 @@ readers do not read off random characters that represent icons */
   background-color: #a66f60; }
   .td-box--9 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13308,7 +13321,8 @@ readers do not read off random characters that represent icons */
   background-color: #584F92; }
   .td-box--10 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13330,7 +13344,8 @@ readers do not read off random characters that represent icons */
   background-color: #A63FB5; }
   .td-box--11 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13352,7 +13367,8 @@ readers do not read off random characters that represent icons */
   background-color: white; }
   .td-box--12 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13374,7 +13390,8 @@ readers do not read off random characters that represent icons */
   background-color: #C0E0DE; }
   .td-box--13 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13396,7 +13413,8 @@ readers do not read off random characters that represent icons */
   background-color: #11AEBF; }
   .td-box--blue .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13418,7 +13436,8 @@ readers do not read off random characters that represent icons */
   background-color: #6610f2; }
   .td-box--indigo .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13440,7 +13459,8 @@ readers do not read off random characters that represent icons */
   background-color: #6f42c1; }
   .td-box--purple .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13462,7 +13482,8 @@ readers do not read off random characters that represent icons */
   background-color: #e83e8c; }
   .td-box--pink .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13484,7 +13505,8 @@ readers do not read off random characters that represent icons */
   background-color: #dc3545; }
   .td-box--red .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13506,7 +13528,8 @@ readers do not read off random characters that represent icons */
   background-color: #BA5A31; }
   .td-box--orange .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13528,7 +13551,8 @@ readers do not read off random characters that represent icons */
   background-color: #D9B768; }
   .td-box--yellow .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13550,7 +13574,8 @@ readers do not read off random characters that represent icons */
   background-color: #97a660; }
   .td-box--green .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13572,7 +13597,8 @@ readers do not read off random characters that represent icons */
   background-color: #20c997; }
   .td-box--teal .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13594,7 +13620,8 @@ readers do not read off random characters that represent icons */
   background-color: #17a2b8; }
   .td-box--cyan .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13616,7 +13643,8 @@ readers do not read off random characters that represent icons */
   background-color: #F3F3F3; }
   .td-box--white .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13638,7 +13666,8 @@ readers do not read off random characters that represent icons */
   background-color: #797676; }
   .td-box--gray .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13660,7 +13689,8 @@ readers do not read off random characters that represent icons */
   background-color: #333; }
   .td-box--gray-dark .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13682,7 +13712,8 @@ readers do not read off random characters that represent icons */
   background-color: #584F92; }
   .td-box--primary .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13704,7 +13735,8 @@ readers do not read off random characters that represent icons */
   background-color: #A63FB5; }
   .td-box--secondary .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13726,7 +13758,8 @@ readers do not read off random characters that represent icons */
   background-color: #3772FF; }
   .td-box--success .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13748,7 +13781,8 @@ readers do not read off random characters that represent icons */
   background-color: #C0E0DE; }
   .td-box--info .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13770,7 +13804,8 @@ readers do not read off random characters that represent icons */
   background-color: #a66f60; }
   .td-box--warning .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13792,7 +13827,8 @@ readers do not read off random characters that represent icons */
   background-color: #a66f60; }
   .td-box--danger .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13814,7 +13850,8 @@ readers do not read off random characters that represent icons */
   background-color: #D3F3EE; }
   .td-box--light .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13836,7 +13873,8 @@ readers do not read off random characters that represent icons */
   background-color: #271152; }
   .td-box--dark .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13858,7 +13896,8 @@ readers do not read off random characters that represent icons */
   background-color: #f8f9fa; }
   .td-box--100 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13880,7 +13919,8 @@ readers do not read off random characters that represent icons */
   background-color: #eee; }
   .td-box--200 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13902,7 +13942,8 @@ readers do not read off random characters that represent icons */
   background-color: #dee2e6; }
   .td-box--300 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13924,7 +13965,8 @@ readers do not read off random characters that represent icons */
   background-color: #ccc; }
   .td-box--400 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13946,7 +13988,8 @@ readers do not read off random characters that represent icons */
   background-color: #adb5bd; }
   .td-box--500 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13968,7 +14011,8 @@ readers do not read off random characters that represent icons */
   background-color: #797676; }
   .td-box--600 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -13990,7 +14034,8 @@ readers do not read off random characters that represent icons */
   background-color: #495057; }
   .td-box--700 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -14012,7 +14057,8 @@ readers do not read off random characters that represent icons */
   background-color: #333; }
   .td-box--800 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -14034,7 +14080,8 @@ readers do not read off random characters that represent icons */
   background-color: #222; }
   .td-box--900 .td-arrow-down::before {
     left: 50%;
-    margin-left: -30px;
+    right: 50%;
+    margin-left: 0px;
     bottom: -24px;
     border-style: solid;
     border-width: 25px 30px 0 30px;
@@ -14146,7 +14193,6 @@ readers do not read off random characters that represent icons */
         max-width: 100%;
         height: 2.5rem;
         margin-top: .25rem;
-        overflow: hidden;
         font-size: .875rem; }
         .td-navbar .td-navbar-nav-scroll .nav-link {
           padding-right: .25rem;
@@ -14527,7 +14573,7 @@ nav.foldable-nav .with-child ul {
         padding-top: 5.5rem; } }
 .td-cover-block--height-twoline {
   min-height: 200px;
-  max-height: 200px; }
+  max-height: 600px; }
 
 .td-cover-block--height-nothing {
   min-height: 1000px;
@@ -14538,10 +14584,12 @@ nav.foldable-nav .with-child ul {
   max-height: 60px; }
 
 .td-cover-block--height-min {
-  min-height: 300px; }
+  min-height: 300px;
+  max-height: 1000px; }
 
 .td-cover-block--height-med {
-  min-height: 400px; }
+  min-height: 400px;
+  max-height: 1200px; }
 
 .td-cover-block--height-max {
   min-height: 500px; }
@@ -14558,9 +14606,10 @@ nav.foldable-nav .with-child ul {
     max-height: 60px; }
   .td-cover-block--height-twoline {
     min-height: 200px;
-    max-height: 170px; }
+    max-height: 250px; }
   .td-cover-block--height-min {
-    min-height: 300px; }
+    min-height: 300px;
+    max-height: 1000px; }
   .td-cover-block--height-med {
     min-height: 400px; }
   .td-cover-block--height-max {
@@ -21146,7 +21195,7 @@ body:lang(ur) {
     body:lang(ur) .ml-xl-auto,
     body:lang(ur) .mx-xl-auto {
       margin-left: auto !important; } }
-  @media (min-width: 1900px) {
+  @media (min-width: 2500px) {
     body:lang(fa) .m-xxl-0,
     body:lang(ar) .m-xxl-0,
     body:lang(az) .m-xxl-0,

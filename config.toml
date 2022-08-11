@@ -2,7 +2,7 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 theme = "docsy"
 title = "Gabriel San Martín"
-
+publishDir = "docs/"
 # Language settings
 contentDir = "content/en"
 defaultContentLanguage = "en"
