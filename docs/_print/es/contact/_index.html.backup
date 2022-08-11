@@ -1,0 +1,22 @@
+---
+title: Contacto
+linkTitle: Contacto
+menu:
+  main:
+    weight: 40
+
+---
+
+
+{{< blocks/cover title="Contacto" image_anchor="bottom" height="min" >}}
+
+<p class="lead mt-5">Envíame un correo a contacto@gabrielsmf.com para hacerme consultas, pedirme presupuestos, hacerme ofertas de trabajo o mandarme fotos de animalicos.
+</p>
+
+{{< /blocks/cover >}}
+
+{{% blocks/lead %}}
+Envíame un correo a contacto@gabrielsmf.com para hacerme consultas, pedirme presupuestos, hacerme ofertas de trabajo o mandarme fotos de animalicos.
+{{% /blocks/lead %}}
+
+
