@@ -70,7 +70,7 @@ id = "UA-00000000-0"
 [[menu.main]]
     name = "Blog"
     weight = 50
-    url = "https://example.docsy.dev"
+    url = "https://www.contuspalabras.com"
     post = '<sup><i class="pl-1 fas fa-external-link-alt fa-xs" aria-hidden="true"></i></sup>'
 
 [languages]
