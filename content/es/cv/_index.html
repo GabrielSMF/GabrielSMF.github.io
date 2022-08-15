@@ -15,14 +15,19 @@ menu:
   .centered {
 position: absolute;
 top: 50%;
-left: 65%;
 transform: translate(-0%, -50%);
+/* background-color: white; */
+/* background-color: rgba(243, 243, 243, 0.6); */
 }
-/* .container {
-position: relative;
-text-align: left;
-color: white;
-} */
+@media (min-width: 800px) {
+	.centered {
+	position: absolute;
+	top: 50%;
+	transform: translate(-0%, -50%);
+	left: 55%;
+  background-color: transparent;
+	}
+}
   </style>
 
 {{< blocks/cover title="Currículum" image_anchor="smart" height="min" >}}
@@ -42,7 +47,7 @@ A experiencia y estudios por aquí
 
 {{< /blocks/section >}} -->
 
-{{< blocks/overlayed-image height="min" image="/CV_ES.png" >}}
+{{< blocks/overlayed-image-3 height="min" image="/CV_ES.png" >}}
 <div class="container td-overlay__inner">
 	<div class="centered" style="font-weight:400;font-size:18px"><div class="col-12">
       <h1 class="text-left" style="font-weight:700;">Versión completa</h1>
@@ -51,7 +56,7 @@ A experiencia y estudios por aquí
     </div>
 	</div>
   </div>
-{{< /blocks/overlayed-image >}}
+{{< /blocks/overlayed-image-3 >}}
 
 {{% blocks/lead height="oneline" color="blue"%}}
 <div class="col-12">

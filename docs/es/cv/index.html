@@ -171,14 +171,19 @@ if (!doNotTrack) {
   .centered {
 position: absolute;
 top: 50%;
-left: 65%;
 transform: translate(-0%, -50%);
+/* background-color: white; */
+/* background-color: rgba(243, 243, 243, 0.6); */
 }
-/* .container {
-position: relative;
-text-align: left;
-color: white;
-} */
+@media (min-width: 800px) {
+	.centered {
+	position: absolute;
+	top: 50%;
+	transform: translate(-0%, -50%);
+	left: 55%;
+  background-color: transparent;
+	}
+}
   </style>
 
 
@@ -277,9 +282,9 @@ A experiencia y estudios por aquí
 <link rel="preload" as="image" href="/es/cv/featured-background_huebbfad1edfa8e198fe68a27ac6a615ca_1155413_1920x1080_fill_q75_catmullrom_smart1.jpg" media="(min-width: 1200px)">
 <style>
 #td-cover-block-2 {
-    background-image: url(/CV_ES.png); 
+    background-image: $col-id); 
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 800px) {
     #td-cover-block-2 {
         background-image: url(/CV_ES.png); 
     }
