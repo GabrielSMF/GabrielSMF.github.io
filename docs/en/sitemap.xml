@@ -2,145 +2,145 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/services/news/</loc>
+    <loc>https://www.gabrielsmf.com/services/news/</loc>
     <lastmod>2022-07-01T17:09:05-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/services/news/"
+                href="https://www.gabrielsmf.com/es/services/news/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/services/news/"
+                href="https://www.gabrielsmf.com/services/news/"
                 />
   </url><url>
-    <loc>http://example.org/services/news/first-post/</loc>
+    <loc>https://www.gabrielsmf.com/services/news/first-post/</loc>
     <lastmod>2022-07-01T17:09:05-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/services/news/first-post/"
+                href="https://www.gabrielsmf.com/es/services/news/first-post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/services/news/first-post/"
+                href="https://www.gabrielsmf.com/services/news/first-post/"
                 />
   </url><url>
-    <loc>http://example.org/services/news/second-post/</loc>
+    <loc>https://www.gabrielsmf.com/services/news/second-post/</loc>
     <lastmod>2022-07-01T17:09:05-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/services/news/second-post/"
+                href="https://www.gabrielsmf.com/es/services/news/second-post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/services/news/second-post/"
+                href="https://www.gabrielsmf.com/services/news/second-post/"
                 />
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://www.gabrielsmf.com/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/categories/"
+                href="https://www.gabrielsmf.com/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/categories/"
+                href="https://www.gabrielsmf.com/categories/"
                 />
   </url><url>
-    <loc>http://example.org/contact/</loc>
+    <loc>https://www.gabrielsmf.com/contact/</loc>
     <lastmod>2022-08-15T12:18:59-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/contact/"
+                href="https://www.gabrielsmf.com/es/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/contact/"
+                href="https://www.gabrielsmf.com/contact/"
                 />
   </url><url>
-    <loc>http://example.org/cv/</loc>
+    <loc>https://www.gabrielsmf.com/cv/</loc>
     <lastmod>2022-09-07T15:16:42-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/cv/"
+                href="https://www.gabrielsmf.com/es/cv/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/cv/"
+                href="https://www.gabrielsmf.com/cv/"
                 />
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://www.gabrielsmf.com/</loc>
     <lastmod>2022-08-14T10:52:14-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/"
+                href="https://www.gabrielsmf.com/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/"
+                href="https://www.gabrielsmf.com/"
                 />
   </url><url>
-    <loc>http://example.org/search/</loc>
+    <loc>https://www.gabrielsmf.com/search/</loc>
     <lastmod>2022-07-01T17:09:05-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/search/"
+                href="https://www.gabrielsmf.com/es/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/search/"
+                href="https://www.gabrielsmf.com/search/"
                 />
   </url><url>
-    <loc>http://example.org/services/</loc>
+    <loc>https://www.gabrielsmf.com/services/</loc>
     <lastmod>2022-08-11T19:34:54-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/services/"
+                href="https://www.gabrielsmf.com/es/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/services/"
+                href="https://www.gabrielsmf.com/services/"
                 />
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://www.gabrielsmf.com/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/tags/"
+                href="https://www.gabrielsmf.com/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/tags/"
+                href="https://www.gabrielsmf.com/tags/"
                 />
   </url><url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://www.gabrielsmf.com/about/</loc>
     <lastmod>2022-08-15T17:52:46-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/about/"
+                href="https://www.gabrielsmf.com/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/about/"
+                href="https://www.gabrielsmf.com/about/"
                 />
   </url>
 </urlset>
